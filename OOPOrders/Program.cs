@@ -29,7 +29,7 @@ namespace OOPOrders
             Console.WriteLine();
 
             // Create a new customer
-            Customer c = new Customer("Jessica Muirhead", "Prifysgol Glyndŵr Wrecsam, Fford yr Wyddgrug, Wrecsam LL11 2AW");
+            Customer c = new Customer("Jessica Muirhead", "Prifysgol Glyndŵr Wrecsam, Ffordd yr Wyddgrug, Wrecsam LL11 2AW");
 
             // Create a new order for this customer
             Order o = new Order(c);
